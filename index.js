@@ -26,8 +26,8 @@ app.listen(3000);
 // initialize the Fitbit API client
 const FitbitApiClient = require("fitbit-node");
 const client = new FitbitApiClient({
-	clientId: "22CZ5P",
-	clientSecret: "8fc7266a6ef29d1425b132c60264e17c",
+	clientId: "",
+	clientSecret: "",
 	apiVersion: "1.2" // 1.2 is the default
 });
 
