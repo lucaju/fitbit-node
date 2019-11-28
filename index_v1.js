@@ -11,10 +11,7 @@ const opn = require('opn');
 
 const moment = require("moment");
 const jsonfile = require('jsonfile');
-// const csvdata = require('csvdata');
-const colors = require('colors');
 const logSymbols = require('log-symbols');
-const util = require('util');
 
 
 
@@ -108,9 +105,6 @@ app.get("/callback", (req, res) => {
 
 		getData()
 			.then(() => {
-				// console.log(util.inspect(dataset, {depth: null}));
-				// console.log(dataset);
-
 				res.json(dataset);
 
 				console.log("");
